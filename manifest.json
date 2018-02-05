@@ -8,7 +8,7 @@
     "browser_action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html",
-        "default_title": "RC options",
+        "default_title": "RC options"
     },
     "permissions": [
         "activeTab",
@@ -17,8 +17,8 @@
 
     "content_scripts": [
         {
-            "matches": ["*"],
-            "js": ["content.js"]
+            "matches": ["<all_urls>"],
+            "js": ["converter.js", "content.js"]
         }
     ]
 }
