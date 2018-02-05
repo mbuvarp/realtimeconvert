@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Realtime Convert",
+    "description": "This extension adds conversions for metric and imperial units in real time to any web page.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
